@@ -4,7 +4,7 @@ using System.Linq;
 
 public static class Hanoi
 {
-    // Definición de las pilas para las tres torres
+    // Pilas que representan las torres A, B y C
     static Stack<int> torreA = new Stack<int>();
     static Stack<int> torreB = new Stack<int>();
     static Stack<int> torreC = new Stack<int>();
@@ -14,49 +14,43 @@ public static class Hanoi
     /// </summary>
     public static void Run()
     {
-        // Inicializa las torres eliminando cualquier dato previo
-        InicializarPila();
+        InicializarPilas(); // Elimina datos o residuos en las torres
+        Console.Write("¿Cuántos discos contiene la torre?: ");
+        int numDiscos = int.Parse(Console.ReadLine());
 
-        // Solicita al usuario la cantidad de discos
-        Console.Write("Cuantos discos contiene la torre: ");
-        if (!int.TryParse(Console.ReadLine(), out int NumDiscos) || NumDiscos <= 0)
-        {
-            Console.WriteLine("Por favor, ingrese un número válido de discos.");
-            return;
-        }
-
-        // Llena la torre A con discos, del mayor al menor
-        for (int i = NumDiscos; i >= 1; i--)
+        // Inicializa la torre A con los discos en orden descendente
+        for (int i = numDiscos; i >= 1; i--)
         {
             torreA.Push(i);
         }
-
-        // Dibuja el estado inicial de las torres
         DibujarTorres();
 
         // Resuelve el problema de las torres de Hanoi
-        Resolver(NumDiscos, torreA, torreC, torreB);
+        Resolver(numDiscos, torreA, torreC, torreB);
     }
 
     /// <summary>
     /// Método recursivo para resolver el problema de las torres de Hanoi.
     /// </summary>
+    /// <param name="n">Número de discos a mover</param>
+    /// <param name="origen">Torre de origen</param>
+    /// <param name="destino">Torre de destino</param>
+    /// <param name="auxiliar">Torre auxiliar</param>
     static void Resolver(int n, Stack<int> origen, Stack<int> destino, Stack<int> auxiliar)
     {
         if (n == 1)
         {
-            // Mueve un solo disco del origen al destino
             MoverDisco(origen, destino);
             DibujarTorres();
         }
         else
         {
-            // Mueve n-1 discos del origen al auxiliar
+            // Mueve n-1 discos de origen a auxiliar, usando destino como auxiliar
             Resolver(n - 1, origen, auxiliar, destino);
-            // Mueve el disco restante del origen al destino
+            // Mueve el disco restante de origen a destino
             MoverDisco(origen, destino);
             DibujarTorres();
-            // Mueve los n-1 discos del auxiliar al destino
+            // Mueve los n-1 discos de auxiliar a destino, usando origen como auxiliar
             Resolver(n - 1, auxiliar, destino, origen);
         }
     }
@@ -64,8 +58,11 @@ public static class Hanoi
     /// <summary>
     /// Mueve un disco desde la torre de origen hacia la torre de destino.
     /// </summary>
+    /// <param name="origen">Torre de origen</param>
+    /// <param name="destino">Torre de destino</param>
     static void MoverDisco(Stack<int> origen, Stack<int> destino)
     {
+        // En destino se coloca un nuevo elemento que es el que se elimina en el origen
         destino.Push(origen.Pop());
     }
 
@@ -84,69 +81,12 @@ public static class Hanoi
     /// <summary>
     /// Inicializa las pilas de las torres eliminando cualquier contenido previo.
     /// </summary>
-    static void InicializarPila()
+    static void InicializarPilas()
     {
+        // Utilizamos el método Clear para borrar el contenido de las pilas
         torreA.Clear();
         torreB.Clear();
         torreC.Clear();
-    }
-}
-
-public static class Balanceo
-{
-    /// <summary>
-    /// Ejecuta la verificación de balanceo de una fórmula matemática.
-    /// </summary>
-    public static void Run()
-    {
-        Console.WriteLine("Ingrese una ecuacion:");
-        string formula = Console.ReadLine();
-
-        if (EstaBalanceada(formula))
-        {
-            Console.WriteLine("Ecuacion Balanceada");
-        }
-        else
-        {
-            Console.WriteLine("Ecuacion NO balanceada");
-        }
-    }
-
-    /// <summary>
-    /// Verifica si una fórmula está balanceada en términos de paréntesis, corchetes y llaves.
-    /// </summary>
-    public static bool EstaBalanceada(string formula)
-    {
-        Stack<char> pila = new Stack<char>();
-
-        foreach (char c in formula)
-        {
-            // Si se encuentra un paréntesis de apertura, se agrega a la pila
-            if (c == '(' || c == '[' || c == '{')
-            {
-                pila.Push(c);
-            }
-            // Si se encuentra un paréntesis de cierre, se verifica si corresponde al de apertura
-            else if (c == ')' || c == ']' || c == '}')
-            {
-                if (pila.Count == 0) return false;
-                char ultimo = pila.Pop();
-                if (!Coinciden(ultimo, c)) return false;
-            }
-        }
-
-        // Si la pila está vacía al finalizar, los paréntesis están balanceados
-        return pila.Count == 0;
-    }
-
-    /// <summary>
-    /// Verifica si los caracteres de apertura y cierre coinciden.
-    /// </summary>
-    public static bool Coinciden(char apertura, char cierre)
-    {
-        return (apertura == '(' && cierre == ')') ||
-               (apertura == '[' && cierre == ']') ||
-               (apertura == '{' && cierre == '}');
     }
 }
 
@@ -154,10 +94,6 @@ class Program
 {
     static void Main()
     {
-        // Ejecutar el problema de las torres de Hanoi
         Hanoi.Run();
-        
-        // Ejecutar la verificación de balanceo
-        Balanceo.Run();
     }
 }
