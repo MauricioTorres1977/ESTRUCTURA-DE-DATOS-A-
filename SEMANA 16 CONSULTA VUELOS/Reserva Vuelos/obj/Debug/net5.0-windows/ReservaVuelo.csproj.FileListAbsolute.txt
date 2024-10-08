@@ -1,0 +1,36 @@
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\bin\Debug\net5.0-windows\ReservaVuelo.exe
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\bin\Debug\net5.0-windows\ReservaVuelo.deps.json
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\bin\Debug\net5.0-windows\ReservaVuelo.runtimeconfig.json
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\bin\Debug\net5.0-windows\ReservaVuelo.runtimeconfig.dev.json
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\bin\Debug\net5.0-windows\ReservaVuelo.dll
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\bin\Debug\net5.0-windows\ReservaVuelo.pdb
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.csproj.AssemblyReference.cache
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.Form1.resources
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.csproj.GenerateResource.cache
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.AssemblyInfoInputs.cache
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.AssemblyInfo.cs
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.csproj.CoreCompileInputs.cache
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.dll
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ref\ReservaVuelo.dll
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.pdb
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.genruntimeconfig.cache
+C:\Users\richa\source\repos\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\refint\ReservaVuelo.dll
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\bin\Debug\net5.0-windows\ReservaVuelo.exe
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\bin\Debug\net5.0-windows\ReservaVuelo.deps.json
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\bin\Debug\net5.0-windows\ReservaVuelo.runtimeconfig.json
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\bin\Debug\net5.0-windows\ReservaVuelo.runtimeconfig.dev.json
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\bin\Debug\net5.0-windows\ReservaVuelo.dll
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\bin\Debug\net5.0-windows\ReservaVuelo.pdb
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.csproj.AssemblyReference.cache
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.Form1.resources
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.csproj.GenerateResource.cache
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.AssemblyInfoInputs.cache
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.AssemblyInfo.cs
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.csproj.CoreCompileInputs.cache
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.dll
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\refint\ReservaVuelo.dll
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.pdb
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ReservaVuelo.genruntimeconfig.cache
+C:\Users\torre\OneDrive\MAURICIO\UEA MAURICIO\TERCER SEMESTRE\2424 - ESTRUCTURA DE DATOS (A)\SEMANA16 S3\CODIGO TAREA\ReservaVuelo\ReservaVuelo\obj\Debug\net5.0-windows\ref\ReservaVuelo.dll
